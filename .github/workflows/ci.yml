@@ -17,4 +17,6 @@ jobs:
 
         - run: node --version
 
+        - run: npm ci
+
         - run: echo "CI is running"
